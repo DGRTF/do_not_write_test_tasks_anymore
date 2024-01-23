@@ -1,0 +1,13 @@
+{
+  "server": {
+    "apiPort": 8888,
+    "staticFilesPort": 50000
+  },
+  "database": {
+    "databaseUrl": "mongodb://0.0.0.0:27017/",
+    "username": "root",
+    "password": "example",
+    "databaseName": "events",
+    "authSource": "admin"
+  }
+}
